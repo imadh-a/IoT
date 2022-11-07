@@ -1,25 +1,20 @@
-#define pin1 13
-#define pin2 11
-#define pin3 9
 void setup() {
-  pinMode(pin1,OUTPUT);
-  pinMode(pin2,OUTPUT);
-  pinMode(pin3,OUTPUT);}
-  
-
+  pinMode(9,OUTPUT);
+  pinMode(12,OUTPUT);
+  pinMode(8,OUTPUT);
+}
 
 void loop() {
-  digitalWrite(pin1,HIGH);
-  //delay(1000);
-  digitalWrite(pin1,LOW);
+  digitalWrite(9,HIGH);
   delay(1000);
-  digitalWrite(pin2,HIGH);
+  digitalWrite(9,LOW);
   delay(1000);
-  digitalWrite(pin2,LOW);
+  digitalWrite(12,HIGH);
   delay(1000);
-  digitalWrite(pin3,HIGH);
+  digitalWrite(12,LOW);
   delay(1000);
-  digitalWrite(pin3,LOW);
+  digitalWrite(8,HIGH);
   delay(1000);
-
+  digitalWrite(8,LOW);
+  delay(1000);
 }
